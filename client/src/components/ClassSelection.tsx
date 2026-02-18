@@ -15,8 +15,7 @@ export default function ClassSelection({
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-          نظام الاختبارات المدرسي
-        </h1>
+المُــــعَلِّــــم        </h1>
         <p className="text-lg text-slate-600 mb-2">
           اختر صفك الدراسي لبدء الاختبار
         </p>
