@@ -14,9 +14,12 @@ export default function ClassSelection({
     <div className="w-full max-w-6xl mx-auto">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-         المُــعــلِّـــم
-        </h1>
+        <h1
+          className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
+          style={{ fontFamily: "Amiri" }}
+        >
+          المُعَلِّم
+        </h1>{" "}
         <p className="text-lg text-slate-600 mb-2">
           اختر صفك الدراسي لبدء الاختبار
         </p>
@@ -25,7 +28,7 @@ export default function ClassSelection({
 
       {/* Classes Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {classes.map((classItem) => (
+        {classes.map(classItem => (
           <div
             key={classItem.id}
             onClick={() => onSelectClass(classItem)}
